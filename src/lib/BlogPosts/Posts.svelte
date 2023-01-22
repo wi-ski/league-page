@@ -152,7 +152,9 @@
     <div class="filterButtons">
         {#if filterKey == ''}
             {#each categories as category}
-                <a class="noUnderline" on:click={() => changeFilter(category)} href="/blog?filter={category}&page=1"><div class="filter filterLink">{category}</div></a>
+                {#if String(category) !== "undefined"}
+                    <a class="noUnderline" on:click={() => changeFilter(category)} href="/blog?filter={category}&page=1"><div class="filter filterLink">{category}</div></a>
+                {/if}
             {/each}
         {:else}
             <div class="filteringBy">Showing <div class="filter filterLink noHover">{filterKey}</div> posts <a class="noUnderline" on:click={() => changeFilter('')} href="/blog?filter=&page=1"><div class="filter filterClear">Clear Filter</div></a></div>
