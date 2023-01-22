@@ -1,5 +1,4 @@
 /*   STEP 1   */
-// Contentful access key CFPAT-to-GiqVM1T8bevl0c_DWdkxVXTkGFKo-1PZdj_-QN2o
 export const leagueID = "674158628948746240"; // your league ID
 export const leagueName = "The DFFL"; // your league name
 export const dues = 100; // (optional) used in template constitution page
