@@ -11,10 +11,10 @@ export const homepageText = `
   <p>Welcome to the DFFL! This league is open to all active-duty military members and veterans.<p>
   <p>We'll be using the standard scoring system and a snake draft to build our teams. The draft date and time will be announced soon, but mark your calendars now so you don't miss it.<p>
   <p>Let's have some fun and make some memories while we compete against each other on the virtual gridiron.<p>
-  <p>Oorah!<p>
+  <p style="text-align: center;">Oorah!<p>
   <br>
-  <p><i>This summary was generated using Artificial Intelligence.</i></p>
-  <p><i>Check us out: <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</i></p>
+  <p style="text-align: center;"><i>This summary was generated using Artificial Intelligence.</i></p>
+  <p style="text-align: center;"><i>Check us out: <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</i></p>
 `;
 
 /*   STEP 3   */
