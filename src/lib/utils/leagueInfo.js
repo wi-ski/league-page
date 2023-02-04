@@ -6,12 +6,16 @@ export const dynasty = true; // true for dynasty leagues, false for redraft and 
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
-export const homepageText = `
-<h6 style="text-align:center; margin-bottom:5px;">D'Franchise Fantasy Football League</h6>
-<p style="text-align:center;"><i>Est. 2018</i><p>
-
-<p>
+{/* <p>
 DFFL was created in part from the ashes of a long time league "The Players Club" and a core of Navy Information Dominators who worked (suffered?) together in Hawaii from 2009-2012 who then sucked in some of the biggest degenerates they have known from life and from other leagues over the years.
+</p> */}
+export const homepageText = `
+<h6 style="text-align:center; margin-bottom:5px;">D'Franchise Fantasy Football League <i style="font-size:10px">Est. 2018</i></h6>
+
+<p style="text-align:center;">
+  <a href="/about">
+    About
+  </a>
 </p>
 <p>
 Additionally, at the heart of DFFL is a father and son love for fantasy football and "old school" newspaper-sports-section-stat-tracking dynasty fantasy football. 

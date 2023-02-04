@@ -3,6 +3,7 @@ import Footer from './Footer.svelte';
 import News from './News/index.svelte';
 import Resources from './Resources.svelte';
 import Awards from './Awards/Awards.svelte';
+import About from './About.svelte';
 import Rosters from './Rosters/Rosters.svelte';
 import Transactions from './Transactions/Transactions.svelte';
 import TransactionsPage from './Transactions/TransactionsPage.svelte';
@@ -23,6 +24,7 @@ export {
     Awards,
     Rosters,
     Transactions,
+    About,
     TransactionsPage,
     News,
     Resources,

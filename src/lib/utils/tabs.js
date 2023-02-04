@@ -1,10 +1,15 @@
-import {leagueID} from '$lib/utils/leagueInfo';
+import { leagueID } from '$lib/utils/leagueInfo';
 
 export const tabs = [
     {
         icon: 'home',
         label: 'Home',
         dest: '/',
+    },
+    {
+        icon: 'lightbulb',
+        label: 'About',
+        dest: '/about',
     },
     {
         icon: 'local_fire_department',
@@ -67,10 +72,5 @@ export const tabs = [
                 dest: `https://sleeper.app/leagues/${leagueID}`,
             },
         ]
-    },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
     },
 ];
