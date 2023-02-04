@@ -18,9 +18,6 @@ export const homepageText = `
   </a>
 </p>
 <p>
-Additionally, at the heart of DFFL is a father and son love for fantasy football and "old school" newspaper-sports-section-stat-tracking dynasty fantasy football. 
-</p>
-<p>
 DFFL has evolved a format that consistently seeks to replicate an NFL GM experience.  It currently utilizes a half-PPR, Pt/1st Down, QB/RB/WRx2/TE/WRTx3/K/D format with salary caps, contracts, rookie draft, FA auction, and trading, along with bench and taxi (practice) options all meant to test a fantasy manager's skill and prowess.
 </p>
 <p>

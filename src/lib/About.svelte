@@ -48,6 +48,9 @@
             <p>
             DFFL was created in part from the ashes of a long time league "The Players Club" and a core of Navy Information Dominators who worked (suffered?) together in Hawaii from 2009-2012 who then sucked in some of the biggest degenerates they have known from life and from other leagues over the years.
             </p>
+            <p>
+                Additionally, at the heart of DFFL is a father and son love for fantasy football and "old school" newspaper-sports-section-stat-tracking dynasty fantasy football. 
+            </p>
         </div>
     </div>
 </div>
