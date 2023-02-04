@@ -1,20 +1,31 @@
 /*   STEP 1   */
 export const leagueID = "674158628948746240"; // your league ID
-export const leagueName = "The DFFL"; // your league name
+export const leagueName = "DFFL"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
+<h6 style="text-align:center; margin-bottom:5px;">D'Franchise Fantasy Football League</h6>
+<p style="text-align:center;"><i>Est. 2018</i><p>
 
-  <p>Welcome to the DFFL! This league is open to all active-duty military members and veterans.<p>
-  <p>We'll be using the standard scoring system and a snake draft to build our teams. The draft date and time will be announced soon, but mark your calendars now so you don't miss it.<p>
-  <p>Let's have some fun and make some memories while we compete against each other on the virtual gridiron.<p>
-  <p style="text-align: center;">Oorah!<p>
-  <br>
-  <p style="text-align: center;"><i>This summary was generated using Artificial Intelligence.</i></p>
-  <p style="text-align: center;"><i>Check us out: <a href="https://chat.openai.com/chat">https://chat.openai.com/chat</i></p>
+<p>
+DFFL was created in part from the ashes of a long time league "The Players Club" and a core of Navy Information Dominators who worked (suffered?) together in Hawaii from 2009-2012 who then sucked in some of the biggest degenerates they have known from life and from other leagues over the years.
+</p>
+<p>
+Additionally, at the heart of DFFL is a father and son love for fantasy football and "old school" newspaper-sports-section-stat-tracking dynasty fantasy football. 
+</p>
+<p>
+DFFL has evolved a format that consistently seeks to replicate an NFL GM experience.  It currently utilizes a half-PPR, Pt/1st Down, QB/RB/WRx2/TE/WRTx3/K/D format with salary caps, contracts, rookie draft, FA auction, and trading, along with bench and taxi (practice) options all meant to test a fantasy manager's skill and prowess.
+</p>
+<p>
+There's also occasional side betting.
+</p>
+<p>
+Between the action in Sleeper for league play, the social banter and discussion in What's App, and the blogs and data tracking in official league website and Google Drive, you'll be hard pressed to ever find a more complete fantasy football experience. 
+Someday, we'll have either a Big Screen, Hallmark, or Netflix movie or series.
+</p>
 `;
 
 /*   STEP 3   */

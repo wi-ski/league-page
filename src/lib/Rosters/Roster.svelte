@@ -6,8 +6,23 @@
 	
 	export let roster, leagueTeamManagers, startersAndReserve, players, rosterPositions, division, expanded;
 
-	$: team = leagueTeamManagers.teamManagersMap[leagueTeamManagers.currentSeason][roster.roster_id].team;
-
+	const teamNamesToSheetNames = {
+		"Cranberries a la Bart":"CAB",
+		"MoreThielen":"MTT",
+		"RudeAwful Fitz":"RAF",
+		"PointSix":"PTS",
+		"Jerry's World Wonder":"JWW",
+		"UGGLmooch":"UGG",
+		"Unknown Team":null,
+		"The Mega Watt's":"TMW",
+		"TIU_Bart_Sr":"TIU",
+		"CodysNUTZ":"NUT",
+		"Dy'nasty Fan'tasy":"DNF",
+		"KnockinOnEvansDoor13":"KED",
+	}
+	const _team = leagueTeamManagers.teamManagersMap[leagueTeamManagers.currentSeason][roster.roster_id].team;
+	_team.contractsPageURL = `/contracts?team=${teamNamesToSheetNames[_team.name]}`|| `/contracts`
+	$: team = _team
 	let i = 0;
 
 	const digestData = (passedPlayers, rawPlayers, startingPlayers = false, reserve = false) => {
@@ -262,10 +277,13 @@
 		<Head> <!-- Team name  -->
 			<Row>
 				<Cell colspan=4 class="r_{division} clickable">
-					<h3 on:click={() => gotoManager({leagueTeamManagers, rosterID: roster.roster_id})}>
-						<img alt="team avatar" class="teamAvatar" src="{team ? team.avatar : 'https://sleepercdn.com/images/v2/icons/player_default.webp'}" />
-						{team?.name ? team.name : 'No Manager'}
-					</h3>
+					<a style="all: unset;" href={team.contractsPageURL}>
+						<h3>
+						<!-- <h3 on:click={() => gotoManager({leagueTeamManagers, rosterID: roster.roster_id})}> -->
+							<img alt="team avatar" class="teamAvatar" src="{team ? team.avatar : 'https://sleepercdn.com/images/v2/icons/player_default.webp'}" />
+							{team?.name ? team.name : 'No Manager'}
+						</h3>
+					</a>
 
 					<div class="record">
 						{#each record as result}
