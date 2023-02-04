@@ -11,7 +11,7 @@ DFFL was created in part from the ashes of a long time league "The Players Club"
 </p> */}
 export const homepageText = `
 <h6 style="text-align:center; margin-bottom:5px;">D'Franchise Fantasy Football League</h6>
-<h6 style="text-align:center; margin-bottom:5px;"><i style="font-size:10px">Est. 2018</i></h6>
+<p style="text-align:center; margin-bottom:5px;"><i style="font-size:10px">Est. 2018</i></p>
 
 <p style="text-align:center;">
   <a href="/about">
