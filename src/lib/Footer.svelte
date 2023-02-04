@@ -67,7 +67,7 @@
       > to get the most up-to-date experience.
     </p>
   {/if} -->
-  <!-- <div id="navigation">
+  <div id="navigation">
     <ul>
       {#each tabs as tab}
         {#if !tab.nest}
@@ -89,7 +89,7 @@
         {/if}
       {/each}
     </ul>
-  </div> -->
+  </div>
   <!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
   <span class="copyright"
     >&copy; 2021 - {year}

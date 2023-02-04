@@ -149,7 +149,7 @@
         </div>
         <PowerRankings />
     </div>
-    
+<!--     
     <div class="leagueData">
         <div class="homeBanner">
             {#await nflState}
@@ -193,5 +193,5 @@
         <div class="transactions" >
             <Transactions />
         </div>
-    </div>
+    </div> -->
 </div>
